@@ -20,7 +20,7 @@ body {
 }
 
 main {
-    background-color: #F4F1ED;
+    background-color: #D2E2FB;
     flex-grow: 1;
 }
 
@@ -75,7 +75,7 @@ a:hover {
 }
 
 .u-rounded-block {
-    background-color: rgba(217, 217, 217, 0.7);
+    background-color: rgba(244, 233, 233, 0.4);
     border: 1px solid black;
     border-radius: 10px;
     padding: 20px;
