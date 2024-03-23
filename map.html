@@ -11,23 +11,21 @@
 <body>
     <div class="layout">
       <header>
-        <h1>HSE-logo</h1>
-        <nav>
+        <div class="logo">
+          <img src="assets/01_Logo_HSE_full_rus_CMYK 1.png" alt="Изображение">
+      </div>        <nav>
             <a href="index.html">Главная</a>
             <a href="#" class="active" >Карта</a>
             <a href="about.html">О проекте</a>
-            <a href="#">Связаться</a>
         </nav>
     </header>
 
     <section class="home">     
     </section> 
 
-    <div id="deepscatter"></div>
+    <div id="deepscatter" id="abb"></div>
     <div id="controls" style="z-index: 99; position: fixed">
-      <input type="range" min="0" max=".5" step=".01" id="jitter" value=".05" />
-      <button id="flip">Change encoding</button>
-      <button id="html">Change tooltip HTML</button>
+
       <pre id="ident"></pre>
     </div>
     <script type="module">
