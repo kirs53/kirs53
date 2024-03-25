@@ -1,3 +1,8 @@
+# Data
+
+For interactive visualization to work, place the [tiles](https://disk.yandex.ru/d/_7vkdEcVB2md0w) folder in the current repository directory
+
+
 # Deep Scatterplots for the Web
 
 This is a library for allowing interactive visualization of extremely large datasets, in browser.
